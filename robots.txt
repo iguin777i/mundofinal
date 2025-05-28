@@ -1,0 +1,18 @@
+# robots.txt para Mundo Psicodélico
+# Permite o acesso de todos os rastreadores a todo o site
+# Adicione regras específicas conforme necessário
+
+User-agent: *
+Disallow:
+
+# Permitir o rastreamento de arquivos JS e CSS
+Allow: /*.js$
+Allow: /*.css$
+
+# Bloquear páginas de erro e diretórios sensíveis (ajuste conforme sua estrutura)
+Disallow: /404/
+Disallow: /admin/
+Disallow: /login/
+
+# Sitemap (se existir, ajuste o caminho)
+# Sitemap:https://mundopsicodelico.life/sitemap.xml 

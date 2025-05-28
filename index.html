@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
 
-  <!-- Page Title -->
+  <!-- Título da Página -->
   <title>Mundo Psicodélico</title>
 
-  <!-- Meta Tags -->
+  <!-- Metatags -->
   <meta name="description"
     content="Há 08 anos o Mundo Psicodélico Festival escrevia o 1º capítulo de sua história. Em 2025, retornamos para São Paulo com uma edição surpreendente e diferente de tudo que você já viu.">
   <meta name="keywords"
@@ -16,36 +16,43 @@
 
   <!-- Viewport Meta-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Template Favicon & Icons Start -->
+  <!-- Início dos Favicons e Ícones do Template -->
   <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
   <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-  <!-- Template Favicon & Icons End -->
+  <!-- Fim dos Favicons e Ícones do Template -->
 
-  <!-- Facebook Metadata Start -->
+  <!-- CSS dos Ícones Phosphor -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/fonts/phosphor.css">
+
+  <!-- Início dos Metadados do Facebook -->
   <meta property="og:image:height" content="1200">
   <meta property="og:image:width" content="1200">
   <meta property="og:title" content="Mundo Psicodélico Festival">
   <meta property="og:description"
     content="Há 08 anos o Mundo Psicodélico Festival escrevia o 1º capítulo de sua história. Em 2025, retornamos para São Paulo com uma edição surpreendente e diferente de tudo que você já viu.">
   <meta property="og:url" content="https://mundopsicodelico.life/">
-  <meta property="og:image" content="https://mundopsicodelico.life/img/og%20image.jpg"> <!--ADICIONAR OG:IMAGE-->
-  <!-- Facebook Metadata End -->
+  <meta property="og:image" content="https://mundopsicodelico.life/img/og-image.png"> <!--ADICIONAR OG:IMAGE-->
+  <!-- Fim dos Metadados do Facebook -->
 
-  <!-- Template Styles Start -->
+  <!-- Início dos Estilos do Template -->
   <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
-  <link rel="stylesheet" type="text/css" href="css/plugins.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <!-- Template Styles End -->
+  <link rel="preload" href="css/plugins.purged.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="css/main.purged.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="css/plugins.purged.css">
+    <link rel="stylesheet" href="css/main.purged.css">
+  </noscript>
+  <!-- Fim dos Estilos do Template -->
 
-  <!-- Custom Browser Color Start -->
+  <!-- Início das Cores Personalizadas do Navegador -->
   <meta name="theme-color" content="#141414">
   <meta name="msapplication-navbutton-color" content="#141414">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <!-- Custom Browser Color End -->
+  <!-- Fim das Cores Personalizadas do Navegador -->
 
   <!-- Cookie Consent Card CSS Start -->
   <style>
@@ -155,7 +162,7 @@
 
   <!-- Scroll Indicator Bottom Center -->
   <div id="scroll-indicator">
-    <span>Desça e Cadastre-se para a Pré-venda</span>
+    <span>Role a pagina e Cadastre-se para a Pré-venda</span>
     <div class="button-top-middle">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -220,24 +227,24 @@
   <!-- Fixed Logo End -->
 
 
-  <!-- Page Content Start -->
+  <!-- Início do Conteúdo da Página -->
   <main id="page-content" class="page-content">
-    <!-- First Video Section -->
+    <!-- Primeira Seção de Vídeo -->
     <section class="video-section" id="video-section-1">
       <div class="video-scroll-area"></div>
-      <video class="video-background" playsinline webkit-playsinline preload="auto" muted>
-        <source src="img/backgrounds/VoidGato_Site_Final_ScrollOptimizedFinal.webm" type="video/webm" />
+      <video class="video-background" data-video-desktop="img/backgrounds/VoidGato_Site_Final_ScrollOptimizedFinal.webm"
+        data-video-mobile="img/backgrounds/VoidGato_mobile_ios.mp4" playsinline webkit-playsinline preload="auto" muted>
       </video>
     </section>
     <div class="gradient-transition"></div>
-    <!-- Text Section -->
+    <!-- Seção de Texto -->
     <section class="text-section" id="text-section">
       <section id="contact" class="inner contact inner-grid-bottom no-padding-bottom">
         <div class="inner__wrapper">
           <div class="container-fluid p-0">
             <div class="row g-0">
 
-              <!-- Inner Section Name Start -->
+              <!-- Início do Nome da Seção Interna -->
               <div class="col-12 col-xl-2">
                 <div class="inner__name">
 
@@ -252,7 +259,7 @@
 
                 </div>
               </div>
-              <!-- Inner Section Name End -->
+              <!-- Fim do Nome da Seção Interna -->
 
               <!-- Inner Section Content Start -->
               <div class="col-12 col-xl-8">
@@ -262,8 +269,10 @@
                   <div class="content__block section-form-title">
                     <div class="block__descr">
                       <h2 class="reveal-type animate-in-up">VOCÊ NO <br> MARCO ZERO!</h2>
-                      <p class="h2__text text-twothirds type-basic-160lh animate-in-up"><span class="color: #9333EA">Cadastre-se</span> e garanta acesso aos
-                        benefícios <span class="color: #9333EA">exclusivos.</span> Depois, basta se preparar para uma <span class="color: #9333EA">experiência audiovisual </span> e
+                      <p class="h2__text text-twothirds type-basic-160lh animate-in-up"><span
+                          class="color: #9333EA">Cadastre-se</span> e garanta acesso aos
+                        benefícios <span class="color: #9333EA">exclusivos.</span> Depois, basta se preparar para uma
+                        <span class="color: #9333EA">experiência audiovisual </span> e
                         extraordinária, com uso das mais <span class="color: #9333EA">modernas tecnologias.</span></p>
                     </div>
 
@@ -273,43 +282,41 @@
 
                   <!-- Content Block - Contact Form Start -->
                   <div class="content__block grid-block pre-grid-items">
-                    <div class="form-container">
-                      <!-- Reply Messages Start -->
-                      <div class="form__reply centered text-center">
-                        <i class="ph-thin ph-smiley reply__icon"></i>
-                        <p class="reply__title">Done!</p>
-                        <span class="reply__text">Thanks for your message. I'll get back as soon as possible.</span>
-                      </div>
-                      <!-- Reply Messages End -->
+                    <!-- Início das Mensagens de Resposta -->
+                    <div class="form__reply centered text-center">
+                      <i class="ph-thin ph-smiley reply__icon"></i>
+                      <p class="reply__title">Done!</p>
+                      <span class="reply__text">Thanks for your message. I'll get back as soon as possible.</span>
+                    </div>
+                    <!-- Fim das Mensagens de Resposta -->
 
-                      <!-- Contact Form Start -->
-                      <div class="p-right">
-                        <div class="container-form">
-                          <div class="p-left">
-                            <div role="main" id="mundo-psicodelico-20-12-today-00abbf5c1fb2ef1cea48"></div>
-                            <script type="text/javascript"
-                              src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
-                            <script
-                              type="text/javascript"> new RDStationForms('mundo-psicodelico-20-12-today-00abbf5c1fb2ef1cea48', 'null').createForm();</script>
-                          </div>
+                    <!-- Contact Form Start -->
+                    <div class="p-right">
+                      <div class="container-form">
+                        <div class="p-left">
+                          <div role="main" id="mundo-psicodelico-20-12-today-00abbf5c1fb2ef1cea48"></div>
+                          <script type="text/javascript"
+                            src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+                          <script
+                            type="text/javascript"> new RDStationForms('mundo-psicodelico-20-12-today-00abbf5c1fb2ef1cea48', 'null').createForm();</script>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <!-- Content Block - Contact Form End -->
+                  <!-- Fim do Formulário de Contato -->
 
                 </div>
               </div>
-              <!-- Inner Section Content End -->
+              <!-- Fim do Conteúdo da Seção Interna -->
 
-              <!-- Inner Section Aside Start -->
+              <!-- Início do Aside da Seção Interna -->
               <div class="col-12 col-xl-2"></div>
-              <!-- Inner Section Aside End -->
+              <!-- Fim do Aside da Seção Interna -->
 
             </div>
           </div>
 
-          <!-- Inner Section Off-canvas Content (Footer Marquee Block) Start -->
+          <!-- Início do Conteúdo Off-canvas da Seção Interna (Bloco Marquee do Rodapé) -->
           <div class="footer footer-marquee">
             <div class="container-fluid p-0">
               <div class="row g-0">
@@ -342,7 +349,7 @@
                         </div>
                         <!-- single item -->
                         <div class="item item-regular text">
-                          <a class="item__text">ZERO</a>
+                          <a class="item__text" href="">ZERO</a>
                           <div class="item__image">
                             <img src="./img/logos/Prancheta 1 cópia 5.png" alt="Icon">
                           </div>
@@ -357,7 +364,7 @@
               </div>
             </div>
           </div>
-          <!-- Inner Section Off-canvas Content (Footer Marquee Block) Start -->
+          <!-- Fim do Conteúdo Off-canvas da Seção Interna (Bloco Marquee do Rodapé) -->
 
         </div>
       </section>
@@ -375,21 +382,23 @@
       </div>
     </section>
 
-    <!-- Second Video Section -->
+    <!-- Segunda Seção de Vídeo -->
     <section class="video-section" id="video-section-2">
       <div class="video-scroll-area"></div>
-      <video class="video-background" playsinline webkit-playsinline preload="auto" muted>
-        <source src="img/backgrounds/Down the Rabbit Hole - scrolltrigger-1920.webm" type="video/webm" />
-      </video>
+      <video class="video-background"
+       data-video-desktop="img/backgrounds/Down the Rabbit Hole - scrolltrigger-1920.webm"
+       data-video-mobile="img/backgrounds/Down the Rabbit Hole - scrolltrigger-1920.webm"
+       playsinline webkit-playsinline preload="auto" muted>
+</video>
     </section>
     <div class="gradient-transition"></div>
 
-    <!-- Rest of the site content -->
+    <!-- Resto do conteúdo do site -->
     <section class="website-content">
       <!-- Main Section Start -->
       <section id="home" class="main home">
 
-        <!-- Main Section Intro Start -->
+        <!-- Início da Introdução da Seção Principal -->
         <div class="main__intro">
 
           <div class="container-fluid p-0 fullheight-desktop">
@@ -406,7 +415,7 @@
                 <div id="headline" class="headline d-flex align-items-start flex-column loading-wrap">
                   <p class="headline__subtitle space-bottom loading__item">20 de Dezembro | São Paulo/SP</p>
                   <h2 class="headline__title loading__item">O Epcientro da<br>Psicodelia Urbana</h2>
-                  <div class="headline__btn loading__item">
+                  <div class="headline__btn loading__item" data-speed="0.5">
                     <a href="#text-section" class="cssbuttons-io-button">
                       Cadastro Pré-venda
                       <div class="icon">
@@ -431,7 +440,7 @@
             </div>
           </div>
         </div>
-        <!-- Main Section Intro End -->
+        <!-- Fim da Introdução da Seção Principal -->
 
         <!-- Main Section Media Start -->
         <div class="main__media media-grid-bottom">
@@ -496,7 +505,7 @@
 
                     <!-- single item -->
                     <div class="item image image-1">
-                      <img src="img/carrosel/foto 1.png" alt="Image">
+                      <img src="img/carrosel/foto 1.webp" alt="Image">
                     </div>
 
                     <!-- single item -->
@@ -506,7 +515,7 @@
 
                     <!-- single item -->
                     <div class="item image image-2">
-                      <img src="img/carrosel/foto 2.png" alt="Image">
+                      <img src="img/carrosel/foto 2.webp" alt="Image">
                     </div>
 
                     <!-- single item -->
@@ -516,7 +525,7 @@
 
                     <!-- single item -->
                     <div class="item image image-3">
-                      <img src="img/carrosel/foto 3.png" alt="Image">
+                      <img src="img/carrosel/foto 3.webp" alt="Image">
                     </div>
 
                   </div>
@@ -529,7 +538,7 @@
             </div>
           </div>
         </div>
-        <!-- Main Section Media End -->
+        <!-- Fim da Mídia da Seção Principal -->
 
       </section>
       <!-- Main Section End -->
@@ -563,9 +572,12 @@
                   <div class="content__block section-grid-text-title">
                     <div class="block__descr">
                       <h2 class="reveal-type animate-in-up">Um novo começo</h2>
-                      <p class="h2__text type-basic-160lh animate-in-up"><span class="color: #9333EA">Há 08 anos </span> o Mundo Psicodélico Festival
-                        <span class="color: #9333EA">escrevia o 1° capítulo </span> de sua história. Em 2025, retornamos para <span class="color: #9333EA">São Paulo</span> com uma edição
-                        surpreendente e <span class="color: #9333EA">diferente de tudo que você já viu.</span></p>
+                      <p class="h2__text type-basic-160lh animate-in-up"><span class="color: #9333EA">Há 08 anos </span>
+                        o Mundo Psicodélico Festival
+                        <span class="color: #9333EA">escrevia o 1° capítulo </span> de sua história. Em 2025, retornamos
+                        para <span class="color: #9333EA">São Paulo</span> com uma edição
+                        surpreendente e <span class="color: #9333EA">diferente de tudo que você já viu.</span>
+                      </p>
                     </div>
                   </div>
                   <!-- Content Block - H2 Section Title End -->
@@ -580,50 +592,50 @@
                         <!-- portfolio gallery single item -->
                         <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2"
                           itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                          <a href="https://i.ibb.co/prQLLqjH/image-2.png"
-                            data-image="https://i.ibb.co/prQLLqjH/image-2.png" class="gallery__link"
+                          <a href="img/galeria/image-2.png"
+                            data-image="img/galeria/image-2.png" class="gallery__link"
                             itemprop="contentUrl" data-size="1400x1050">
-                            <img src="https://i.ibb.co/prQLLqjH/image-2.png" class="gallery__image"
-                              itemprop="thumbnail" alt="Image description">
-                          </a>
-                        </figure>
-                        <!-- portfolio gallery single item -->
-                        <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2"
-                          itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                          <a href="https://i.ibb.co/r2904pNp/image-3.png"
-                            data-image="https://i.ibb.co/r2904pNp/image-3.png" class="gallery__link"
-                            itemprop="contentUrl" data-size="1100x1400">
-                            <img src="https://i.ibb.co/r2904pNp/image-3.png" class="gallery__image" itemprop="thumbnail"
+                            <img src="img/galeria/image-2.png" class="gallery__image" itemprop="thumbnail"
                               alt="Image description">
                           </a>
                         </figure>
                         <!-- portfolio gallery single item -->
                         <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2"
                           itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                          <a href="https://i.ibb.co/LdmrcKCR/IMG-8284.jpg"
-                            data-image="https://i.ibb.co/LdmrcKCR/IMG-8284.jpg" class="gallery__link"
+                          <a href="img/galeria/image-3.png"
+                            data-image="img/galeria/image-3.png" class="gallery__link"
+                            itemprop="contentUrl" data-size="1100x1400">
+                            <img src="img/galeria/image-3.png" class="gallery__image" itemprop="thumbnail"
+                              alt="Image description">
+                          </a>
+                        </figure>
+                        <!-- portfolio gallery single item -->
+                        <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2"
+                          itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                          <a href="img/galeria/IMG-8284.jpg"
+                            data-image="img/galeria/IMG-8284.jpg" class="gallery__link"
                             itemprop="contentUrl" data-size="1400x1400">
-                            <img src="https://i.ibb.co/LdmrcKCR/IMG-8284.jpg" class="gallery__image"
+                            <img src="img/galeria/IMG-8284.jpg" class="gallery__image"
                               itemprop="thumbnail" alt="Image description">
                           </a>
                         </figure>
                         <!-- portfolio gallery single item -->
                         <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2"
                           itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                          <a href="https://i.ibb.co/5XfR4bV0/IMG-8214.jpg"
-                            data-image="https://i.ibb.co/5XfR4bV0/IMG-8214.jpg" class="gallery__link"
+                          <a href="img/galeria/IMG-8214.jpg"
+                            data-image="img/galeria/IMG-8214.jpg" class="gallery__link"
                             itemprop="contentUrl" data-size="1400x1050">
-                            <img src="https://i.ibb.co/5XfR4bV0/IMG-8214.jpg" class="gallery__image"
+                            <img src="img/galeria/IMG-8214.jpg" class="gallery__image"
                               itemprop="thumbnail" alt="Image description">
                           </a>
                         </figure>
                         <!-- portfolio gallery single item -->
                         <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2"
                           itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                          <a href="https://i.ibb.co/7tKX346N/79304927-2465432193671995-3698968024502501376-n.jpg"
-                            data-image="https://i.ibb.co/7tKX346N/79304927-2465432193671995-3698968024502501376-n.jpg"
+                          <a href="img/galeria/79304927-2465432193671995-3698968024502501376-n.jpg"
+                            data-image="img/galeria/79304927-2465432193671995-3698968024502501376-n.jpg"
                             class="gallery__link" itemprop="contentUrl" data-size="1400x1050">
-                            <img src="https://i.ibb.co/7tKX346N/79304927-2465432193671995-3698968024502501376-n.jpg"
+                            <img src="img/galeria/79304927-2465432193671995-3698968024502501376-n.jpg"
                               class="gallery__image" itemprop="thumbnail" alt="Image description">
                           </a>
                         </figure>
@@ -637,7 +649,8 @@
                           <div class="icon">
                             <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0 0h24v24H0z" fill="none"></path>
-                              <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                              <path
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
                                 fill="currentColor"></path>
                             </svg>
                           </div>
@@ -694,11 +707,14 @@
                   <div class="content__block pre-stack-text-block">
                     <div class="block__descr">
                       <h2 class="reveal-type animate-in-up">Múltiplas dimensões</h2>
-                      <p class="h2__text type-basic-160lh animate-in-up"><span class="color: #9333EA">Uma estrutura colossal </span> para marcar a volta de
-                        um dos <span class="color: #9333EA"> espetáculos urbanos para São Paulo,</span> em um dia onde a sua mente, o seu coração e o
+                      <p class="h2__text type-basic-160lh animate-in-up"><span class="color: #9333EA">Uma estrutura
+                          colossal </span> para marcar a volta de
+                        um dos <span class="color: #9333EA"> espetáculos urbanos para São Paulo,</span> em um dia onde a
+                        sua mente, o seu coração e o
                         universo estarão conectados.
 
-                        <span class="color: #9333EA">Onde você vai poder entrar em transe, sonhar acordado e enxergar o que ninguém mais viu...</span>
+                        <span class="color: #9333EA">Onde você vai poder entrar em transe, sonhar acordado e enxergar o
+                          que ninguém mais viu...</span>
                       </p>
                     </div>
                   </div>
@@ -722,9 +738,9 @@
                               </p>
                             </div>
                             <div class="services-stack__image">
-                              <img class="service-img service-img-s" src="img/stack/3palcos.png"
+                              <img class="service-img service-img-s" src="img/stack/3palcos.webp"
                                 alt="Service/Feature Image">
-                              <img class="service-img service-img-m" src="img/stack/3palcos.png"
+                              <img class="service-img service-img-m" src="img/stack/3palcos.webp"
                                 alt="Service/Feature Image">
                             </div>
                           </div>
@@ -741,9 +757,9 @@
                                 recarregar energias e flutuar em tranquilidade entre uma dança e outra.</p>
                             </div>
                             <div class="services-stack__image">
-                              <img class="service-img service-img-s" src="img/stack/chillout.png"
+                              <img class="service-img service-img-s" src="img/stack/chillout.webp"
                                 alt="Service/Feature Image">
-                              <img class="service-img service-img-m" src="img/stack/chillout.png"
+                              <img class="service-img service-img-m" src="img/stack/chillout.webp"
                                 alt="Service/Feature Image">
                             </div>
                           </div>
@@ -760,9 +776,9 @@
                                 encantam e ampliam a percepção, transformando cada espaço em uma instalação viva.</p>
                             </div>
                             <div class="services-stack__image">
-                              <img class="service-img service-img-s" src="img/stack/intervencoes.png"
+                              <img class="service-img service-img-s" src="img/stack/intervencoes.webp"
                                 alt="Service/Feature Image">
-                              <img class="service-img service-img-m" src="img/stack/intervencoes.png"
+                              <img class="service-img service-img-m" src="img/stack/intervencoes.webp"
                                 alt="Service/Feature Image">
                             </div>
                           </div>
@@ -799,9 +815,9 @@
                                 inesquecível.</p>
                             </div>
                             <div class="services-stack__image">
-                              <img class="service-img service-img-s" src="img/stack/praca-alimentacao.png"
+                              <img class="service-img service-img-s" src="img/stack/praca_alimentacao.webp"
                                 alt="Service/Feature Image">
-                              <img class="service-img service-img-m" src="img/stack/praca-alimentacao.png"
+                              <img class="service-img service-img-m" src="img/stack/praca_alimentacao.webp"
                                 alt="Service/Feature Image">
                             </div>
                           </div>
@@ -819,9 +835,9 @@
                                 suporte especializado, garantindo diversão segura e saudável durante todo o evento.</p>
                             </div>
                             <div class="services-stack__image">
-                              <img class="service-img service-img-s" src="img/stack/reducao.png"
+                              <img class="service-img service-img-s" src="img/stack/reducao.webp"
                                 alt="Service/Feature Image">
-                              <img class="service-img service-img-m" src="img/stack/reducao.png"
+                              <img class="service-img service-img-m" src="img/stack/reducao.webp"
                                 alt="Service/Feature Image">
                             </div>
                           </div>
@@ -887,28 +903,28 @@
                         <div class="items__container">
                           <!-- single item -->
                           <div class="item item-regular text">
-                            <a class="item__text">BENEFÍCIOS</a>
+                            <a href="" class="item__text">BENEFÍCIOS</a>
                             <div class="item__image">
                               <img src="./img/logos/logo-final.png" alt="Icon">
                             </div>
                           </div>
                           <!-- single item -->
                           <div class="item item-regular text">
-                            <a class="item__text">PRÉ-VENDA</a>
+                            <a href="" class="item__text">PRÉ-VENDA</a>
                             <div class="item__image">
                               <img src="img/logos/Prancheta 1 cópia 5.png" alt="Icon">
                             </div>
                           </div>
                           <!-- single item -->
                           <div class="item item-regular text">
-                            <a class="item__text">BENEFÍCIOS</a>
+                            <a href="" class="item__text">BENEFÍCIOS</a>
                             <div class="item__image">
                               <img src="./img/logos/logo-final.png" alt="Icon">
                             </div>
                           </div>
                           <!-- single item -->
                           <div class="item item-regular text">
-                            <a class="item__text">PRÉ-VENDA</a>
+                            <a href="" class="item__text">PRÉ-VENDA</a>
                             <div class="item__image">
                               <img src="./img/logos/Prancheta 1 cópia 5.png" alt="Icon">
                             </div>
@@ -1099,7 +1115,7 @@
                       <div class="items__container">
                         <!-- single item -->
                         <div class="item item-regular text">
-                          <a class="item__text">MUNDO</a>
+                          <a class="item__text" href="">MUNDO</a>
                           <div class="item__image">
                             <img src="./img/logos/logo-final.png" alt="Icon">
                           </div>
@@ -1113,7 +1129,7 @@
                         </div>
                         <!-- single item -->
                         <div class="item item-regular text">
-                          <a class="item__text">MARCO</a>
+                          <a class="item__text" href="">MARCO</a>
                           <div class="item__image">
                             <img src="./img/logos/logo-final.png" alt="Icon">
                           </div>
@@ -1145,40 +1161,39 @@
 
 
 
-  <!-- Mobile Menu Bottom Placeholder Start -->
+  <!-- Início do Placeholder do Menu Mobile Inferior -->
   <div class="header-offset"></div>
-  <!-- Mobile Menu Bottom Placeholder End -->
+  <!-- Fim do Placeholder do Menu Mobile Inferior -->
 
-  <!-- To Top Button Start -->
-  <a href="#text-section" id="to-top" class="btn btn-to-top slide-up">
+  <!-- Início do Botão Voltar ao Topo -->
+  <a href="#video-section-1" id="to-top" class="btn btn-to-top slide-up">
     <i class="ph ph-arrow-up"></i>
   </a>
-  <!-- To Top Button End -->
+  <!-- Fim do Botão Voltar ao Topo -->
 
   <!-- Root element of PhotoSwipe. Must have class pswp. -->
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe.
-      It's a separate element, as animating opacity is faster than rgba(). -->
+    <!-- Fundo do PhotoSwipe. É um elemento separado, pois animar a opacidade é mais rápido que rgba(). -->
     <div class="pswp__bg"></div>
 
     <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+      <!-- Container que mantém os slides. O PhotoSwipe mantém apenas 3 slides no DOM para economizar memória. -->
+      <!-- Não modifique esses 3 elementos pswp__item, os dados são adicionados depois. -->
       <div class="pswp__container">
         <div class="pswp__item"></div>
         <div class="pswp__item"></div>
         <div class="pswp__item"></div>
       </div>
 
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <!-- Interface padrão (PhotoSwipeUI_Default) sobre a área de slides. Pode ser alterada. -->
       <div class="pswp__ui pswp__ui--hidden">
 
         <div class="pswp__top-bar">
 
-          <!--  Controls are self-explanatory. Order can be changed. -->
+          <!--  Os controles são autoexplicativos. A ordem pode ser alterada. -->
 
           <div class="pswp__counter"></div>
 
@@ -1190,8 +1205,8 @@
 
           <button class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
 
-          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader-active when preloader is running -->
+          <!-- Exemplo de preloader http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- O elemento receberá a classe pswp__preloader-active quando o preloader estiver rodando -->
           <div class="pswp__preloader">
             <div class="pswp__preloader__icn">
               <div class="pswp__preloader__cut">
@@ -1221,19 +1236,20 @@
   <!-- Scroll Trigger Video -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
   <script src="js/scrollTrigger.js"></script>
-  <!-- Load Scripts Start -->
+  <!-- Início do Carregamento dos Scripts -->
   <script src="js/libs.min.js"></script>
   <script src="js/gallery-init.js"></script>
   <script src="js/app.js"></script>
-  <!-- Load Scripts End -->
+  <!-- Fim do Carregamento dos Scripts -->
 
-  <!--marco zero scripts-->
+  <!-- Scripts do Marco Zero -->
   <script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script>
   <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
   <script src="js/zoomScroll.js"></script>
 
-  <!-- Cookie Consent Card Start -->
+  <!-- Início do Card de Consentimento de Cookies -->
   <div class="cookie-card" id="cookie-consent-card">
     <span class="title">🍪 Aviso de Cookies</span>
     <p class="description">Este site utiliza cookies de terceiros para melhorar sua experiência, personalizar conteúdo e
@@ -1247,7 +1263,7 @@
       </button>
     </div>
   </div>
-  <!-- Cookie Consent Card End -->
+  <!-- Fim do Card de Consentimento de Cookies -->
 
   <script>
     // Exibe o card se o consentimento ainda não foi dado
